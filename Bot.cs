@@ -52,8 +52,8 @@ namespace TelegramTestBot
                     await _botClient.SendTextMessageAsync(
                         chatId: e.Message.Chat.Id,
                         text: $"Adios! Vuelve cuando quieras." 
-                );
-            }
+                        );
+                }
         
             }
     }
